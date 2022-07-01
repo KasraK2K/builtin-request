@@ -1,0 +1,28 @@
+{
+  "name": "builtin-request",
+  "version": "1.0.0",
+  "description": "Promise based HTTP client created by nodejs builtin https module",
+  "main": "index.js",
+  "scripts": {},
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KasraK2K/builtin-request.git"
+  },
+  "keywords": [
+    "request",
+    "http",
+    "node-builtin-request",
+    "xhr",
+    "http",
+    "ajax",
+    "promise",
+    "node"
+  ],
+  "author": "Kasra Karami",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KasraK2K/builtin-request/issues"
+  },
+  "homepage": "https://github.com/KasraK2K/builtin-request.git"
+}
