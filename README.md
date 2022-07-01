@@ -1,14 +1,10 @@
 # builtin-request
-This package is a simple and tiny package to send request using node.js builtin features
-
-Send baseUrl in constructor is optional and you can send `options.hostname` instead of that
+This package is a simple and tiny package to send request using node.js builtin features.<br />
+Send `baseUrl` in constructor is optional and you can send `options.hostname` instead of that
 <br />
 <br />
 
----
 ## Some Examples:
----
-<br />
 
 ### Execute:
 With this method you can run any type of request.
@@ -118,4 +114,3 @@ This method is syntactic sugar of execute method. it's helping us to send `delet
     .catch((error) => console.log({ error }))
 })()
 ```
-<br />
