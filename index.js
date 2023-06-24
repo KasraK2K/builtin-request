@@ -12,12 +12,12 @@ class Request {
   execute(options, data = {}) {
     return new Promise((resolve, reject) => {
       const hasData = data && Object.keys(data).length
-      data = JSON.stringify(data)
+      const jsonData = JSON.stringify(data)
       if (hasData) {
         Object.assign(options, {
           headers: {
             'Content-Type': 'application/json',
-            'Content-Length': data.length,
+            'Content-Length': jsonData.length,
           },
         })
       }
@@ -30,7 +30,7 @@ class Request {
         })
         .on('error', (err) => reject(err))
 
-      if (hasData) req.write(data)
+      if (hasData) req.write(jsonData)
       req.end()
     })
   }

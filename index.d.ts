@@ -12,10 +12,11 @@ declare class Request {
 }
 
 interface IOpions {
-  hostname?: string;
-  port?: number;
-  path?: string;
-  method?: string;
+  hostname?: string
+  port?: number
+  path?: string
+  method?: string
 }
 
+export { IOpions }
 export default Request
