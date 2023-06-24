@@ -18,5 +18,5 @@ interface IOptions {
   method?: string
 }
 
-export { IOptions as IOpions }
+export { IOptions }
 export default Request
